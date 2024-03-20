@@ -82,7 +82,7 @@ const Navbar = () => {
             </li> */}
             <li className='w-[80px] md:w-[142px] lg:w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
                 <a className='flex justify-between items-center w-full text-gray-300'
-                href="https://drive.google.com/file/d/15vUZQRj7cDWFa6nsKbymA83-EMpI1L2G/view?usp=sharing">Resume<BsFillPersonLinesFill size={30} className='mr-[-10px] lg:mr-0 duration-300'/>
+                href="https://drive.google.com/file/d/1dMLSBGgF-yvNJ1rbN9xWQLa2kSqoYRF2/view?usp=sharing">Resume<BsFillPersonLinesFill size={30} className='mr-[-10px] lg:mr-0 duration-300'/>
                 </a>
             </li>
         </ul>
