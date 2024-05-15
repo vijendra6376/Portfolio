@@ -20,7 +20,7 @@ const About = () => {
                 </div>
                 <div>
                     <p>
-                    As a passionate frontend developer specializing in React.js, I bring creativity and precision to every project. With a keen eye for design and a knack for clean code, I craft engaging web experiences that captivate users. Let's collaborate to bring your vision to life with cutting-edge technology and intuitive design.                    </p>
+                    As a passionate full-stack web developer specializing in MERN, I bring creativity and precision to every project. With a keen eye for design and a knack for clean code, I craft engaging web experiences that captivate users. Let's collaborate to bring your vision to life with cutting-edge technology and intuitive design.                    </p>
                 </div>
             </div>
 
