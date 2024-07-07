@@ -161,7 +161,7 @@ const Navbar = () => {
             { name: 'LinkedIn', icon: <FaLinkedin size={30} />, url: 'https://www.linkedin.com/in/hneelabh', bg: 'bg-blue-600' },
             { name: 'Github', icon: <FaGithub size={30} />, url: 'https://www.github.com/hneelabh', bg: 'bg-[#333333]' },
             { name: 'E-mail', icon: <HiOutlineMail size={30} />, url: 'mailto:hneelabh13@gmail.com', bg: 'bg-[#6fc2b0]' },
-            { name: 'Resume', icon: <BsFillPersonLinesFill size={30} />, url: 'https://drive.google.com/file/d/1_MwrhN7NcH_fHPwk7AZMYTkTGLs7cY0G/view?usp=sharing', bg: 'bg-[#565f69]' },
+            { name: 'Resume', icon: <BsFillPersonLinesFill size={30} />, url: 'https://drive.google.com/file/d/1epHhBrRpsD6n3a-MPGDMCv8I4URbn70s/view?usp=sharing', bg: 'bg-[#565f69]' },
           ].map((social, index) => (
             <motion.li
               key={index}
