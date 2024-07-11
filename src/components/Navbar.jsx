@@ -118,7 +118,7 @@ const Navbar = () => {
       </div>
 
       <ul className='hidden md:flex'>
-        {['home', 'about', 'skills', 'work', 'certificates', 'contact'].map((item, index) => (
+        {['home', 'about', 'skills', 'work', 'experience', 'certificates', 'contact'].map((item, index) => (
           <motion.li
             key={index}
             className='hover:text-[#8892b0] hover:scale-105 px-4'

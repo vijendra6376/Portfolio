@@ -10,7 +10,8 @@ const Home = () => {
       'a Full-Stack Web Developer',
       'a UI/UX Designer',
       'an Artificial Intelligence Intern',
-      'a CyberSecurity Geek'
+      'a Cyber Security Geek',
+      'a Final-Year IT Undergraduate'
     ],
     loop: true,
     typeSpeed: 40,
