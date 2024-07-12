@@ -8,7 +8,7 @@ import IBMAI2 from '../assets/Certificates/AIFundamentals.jpg'
 
 const Certificates = () => {
   return (
-    <div name='certificates' className='bg-gradient-to-r from-[#0F0C29] to-[#302B63] text-gray-300 w-full min-h-screen py-8 pt-20'>
+    <div name='certificates' className='bg-gradient-to-r from-[#0F0C29] to-[#302B63] max-md:px-10 text-gray-300 w-full min-h-screen py-8 pt-20 md:px-10'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>
@@ -17,8 +17,9 @@ const Certificates = () => {
           <p className='py-6'>These are some of the certifications I've recieved : </p>
         </div>
 
-        <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4'>
-          <div style={{backgroundImage: `url(${ReactJS})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+        <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4'>
+          
+          <div style={{backgroundImage: `url(${ReactJS})`}} className='shadow-xl shadow-black hover:scale-105 duration-500 group container rounded-md flex justify-center items-center mx-auto content-div'>
             <div className='opacity-0 group-hover:opacity-100 text-center'>
               <div className='text-xl font-bold text-white tracking-wider text-center'>
                 Course Completion : React JS
@@ -34,7 +35,7 @@ const Certificates = () => {
             </div>
           </div>
 
-          <div style={{backgroundImage: `url(${IBMAI2})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div style={{backgroundImage: `url(${IBMAI2})`}} className='shadow-xl shadow-black hover:scale-105 duration-500 group container rounded-md flex justify-center items-center mx-auto content-div'>
             <div className='opacity-0 group-hover:opacity-100 text-center'>
               <span className='text-xl font-bold text-white'>
                 Badge : Artificial Intelligence Fundamentals
@@ -50,7 +51,7 @@ const Certificates = () => {
             </div>
           </div>
 
-          <div style={{backgroundImage: `url(${IBMAI})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div style={{backgroundImage: `url(${IBMAI})`}} className='shadow-xl shadow-black hover:scale-105 duration-500 group container rounded-md flex justify-center items-center mx-auto content-div'>
             <div className='opacity-0 group-hover:opacity-100 text-center'>
               <span className='text-xl font-bold text-white tracking-wider text-center'>
                 Badge : Getting Started with Artificial Intelligence
@@ -66,7 +67,7 @@ const Certificates = () => {
             </div>
           </div>
 
-          <div style={{backgroundImage: `url(${PS})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div style={{backgroundImage: `url(${PS})`}} className='shadow-xl shadow-black hover:scale-105 duration-500 group container rounded-md flex justify-center items-center mx-auto content-div'>
             <div className='opacity-0 group-hover:opacity-100 text-center'>
               <div className='text-xl font-bold text-white tracking-wider text-center'>
                 Assessment : Problem Solving
@@ -82,7 +83,7 @@ const Certificates = () => {
             </div>
           </div>
 
-          <div style={{backgroundImage: `url(${JS})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div style={{backgroundImage: `url(${JS})`}} className='shadow-xl shadow-black hover:scale-105 duration-500 group container rounded-md flex justify-center items-center mx-auto content-div'>
             <div className='opacity-0 group-hover:opacity-100 text-center'>
               <div className='text-xl font-bold text-white tracking-wider text-center'>
               Assessment : JavaScript
@@ -98,7 +99,7 @@ const Certificates = () => {
             </div>
           </div>
 
-          <div style={{backgroundImage: `url(${TCS})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div style={{backgroundImage: `url(${TCS})`}} className='sshadow-xl shadow-black hover:scale-105 duration-500 group container rounded-md flex justify-center items-center mx-auto content-div'>
             <div className='opacity-0 group-hover:opacity-100 text-center'>
               <div className='text-xl font-bold text-white tracking-wider text-center'>
                 Course Completion : Young Professional
