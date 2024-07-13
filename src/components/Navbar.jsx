@@ -16,25 +16,25 @@ const Navbar = () => {
       </div>
 
         <ul className='hidden md:flex md:text-xs lg:text-sm'>
-            <li className='hover:text-[#8892b0] hover:scale-105'>
+            <li className='hover:text-[#8892b0] hover:scale-110 duration-500'>
             <Link to="home" smooth={true} duration={500}> Home </Link>
             </li>
-            <li className='hover:text-[#8892b0] hover:scale-105'>
+            <li className='hover:text-[#8892b0] hover:scale-110 duration-500'>
             <Link to="about" smooth={true} duration={500}> About </Link>
             </li>
-            <li className='hover:text-[#8892b0] hover:scale-105'>
+            <li className='hover:text-[#8892b0] hover:scale-110 duration-500'>
             <Link to="skills" smooth={true} duration={500}> Skills </Link>
             </li>
-            <li className='hover:text-[#8892b0] hover:scale-105'>
+            <li className='hover:text-[#8892b0] hover:scale-110 duration-500'>
             <Link to="work" smooth={true} duration={500}> Work </Link>
             </li>
-            <li className='hover:text-[#8892b0] hover:scale-105'>
+            <li className='hover:text-[#8892b0] hover:scale-110 duration-500'>
             <Link to="experience" smooth={true} duration={500}> Experience </Link>
             </li>
-            <li className='hover:text-[#8892b0] hover:scale-105'>
+            <li className='hover:text-[#8892b0] hover:scale-110 duration-500'>
             <Link to="certificates" smooth={true} duration={500}> Certificates </Link>
             </li>
-            <li className='hover:text-[#8892b0] hover:scale-105'>
+            <li className='hover:text-[#8892b0] hover:scale-110 duration-500'>
             <Link to="contact" smooth={true} duration={500}> Contact </Link>
             </li>
         </ul>
@@ -74,12 +74,12 @@ const Navbar = () => {
         <ul>
             <li className='w-[80px] md:w-[142px] lg:w-[160px] h-[30px] lg:h-[40px] rounded-lg flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
                 <a className='flex justify-between items-center w-full text-gray-300'
-                href="https://www.linkedin.com/in/hneelabh">LinkedIn<FaLinkedin size={30} className='mr-[-10px] lg:mr-0 duration-300'/>
+                href="https://www.linkedin.com/in/hneelabh" target='blank'>LinkedIn<FaLinkedin size={30} className='mr-[-10px] lg:mr-0 duration-300'/>
                 </a>
             </li>
             <li className='w-[80px] md:w-[142px] lg:w-[160px] h-[30px] lg:h-[40px] rounded-lg flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
                 <a className='flex justify-between items-center w-full text-gray-300'
-                href="https://www.github.com/hneelabh">Github<FaGithub size={30} className='mr-[-10px] lg:mr-0 duration-300'/>
+                href="https://www.github.com/hneelabh" target='blank'>Github<FaGithub size={30} className='mr-[-10px] lg:mr-0 duration-300'/>
                 </a>
             </li>
             <li className='w-[80px] md:w-[142px] lg:w-[160px] h-[30px] lg:h-[40px] rounded-lg flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
@@ -89,12 +89,12 @@ const Navbar = () => {
             </li>
             {/* <li className='w-[80px] md:w-[142px] lg:w-[160px] h-[30px] lg:h-[40px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300' style={{ background: 'linear-gradient(to right, #f9ce34, #ee2a7b, #6228d7)' }}>
                 <a className='flex justify-between items-center w-full text-gray-300' 
-                href="https://www.instagram.com/hneelabh">Instagram<FaInstagram size={30} className='mr-[-10px] lg:mr-0 duration-300'/>
+                href="https://www.instagram.com/hneelabh" target='blank'>Instagram<FaInstagram size={30} className='mr-[-10px] lg:mr-0 duration-300'/>
                 </a>
             </li> */}
             <li className='w-[80px] md:w-[142px] lg:w-[160px] h-[30px] lg:h-[40px] rounded-lg flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
                 <a className='flex justify-between items-center w-full text-gray-300'
-                href="https://drive.google.com/file/d/1_MwrhN7NcH_fHPwk7AZMYTkTGLs7cY0G/view?usp=sharing">Resume<BsFillPersonLinesFill size={30} className='mr-[-10px] lg:mr-0 duration-300'/>
+                href="https://drive.google.com/file/d/1epHhBrRpsD6n3a-MPGDMCv8I4URbn70s/view?usp=sharing" target='blank'>Resume<BsFillPersonLinesFill size={30} className='mr-[-10px] lg:mr-0 duration-300'/>
                 </a>
             </li>
         </ul>

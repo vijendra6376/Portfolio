@@ -29,7 +29,7 @@ const Certificates = () => {
               </div>
               <div className='pt-8 text-center'>
                 <a href="https://www.udemy.com/certificate/UC-d2e99ccb-4ea2-42b4-b44c-a232bf3412bc/" target='new'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Verify</button>
+                  <button className='text-center rounded-xl px-3 py-2 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-95 duration-300'>Verify</button>
                 </a>
               </div>
             </div>
@@ -45,7 +45,7 @@ const Certificates = () => {
               </div>
               <div className='pt-8 text-center'>
                 <a href=" " target='new'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Verify</button>
+                  <button className='text-center rounded-xl px-3 py-2 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-95 duration-300'>Verify</button>
                 </a>
               </div>
             </div>
@@ -61,7 +61,7 @@ const Certificates = () => {
               </div>
               <div className='pt-8 text-center'>
                 <a href="https://www.credly.com/go/8EdWLh4f" target='new'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Verify</button>
+                  <button className='text-center rounded-xl px-3 py-2 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-95 duration-300'>Verify</button>
                 </a>
               </div>
             </div>
@@ -77,7 +77,7 @@ const Certificates = () => {
               </div>
               <div className='pt-8 text-center'>
                 <a href="https://www.hackerrank.com/certificates/770a3c68cecb" target='new'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Verify</button>
+                  <button className='text-center rounded-xl px-3 py-2 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-95 duration-300'>Verify</button>
                 </a>
               </div>
             </div>
@@ -93,7 +93,7 @@ const Certificates = () => {
               </div>
               <div className='pt-8 text-center'>
                 <a href="https://www.hackerrank.com/certificates/68f5eadcaa81" target='new'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Verify</button>
+                  <button className='text-center rounded-xl px-3 py-2 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-95 duration-300'>Verify</button>
                 </a>
               </div>
             </div>
@@ -109,7 +109,7 @@ const Certificates = () => {
               </div>
               <div className='pt-8 text-center'>
                 <a href="https://drive.google.com/file/d/1w4VObVKVfSlycDelJuDwBWjY5RI6BzNF/view" target='new'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>View</button>
+                  <button className='text-center rounded-xl px-3 py-2 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-95 duration-300'>View</button>
                 </a>
               </div>
             </div>

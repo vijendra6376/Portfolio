@@ -135,6 +135,9 @@ import packnchew from '../assets/projects/packnchew.png';
 import mycontacts from '../assets/projects/mycontacts.jpeg';
 import diversediaries from '../assets/projects/DiverseDiaries.jpg';
 
+import { FaGithub } from "react-icons/fa";
+import { GrDeploy } from "react-icons/gr";
+
 const Work = () => {
   const controls = useAnimation();
   const { ref, inView } = useInView({
@@ -241,14 +244,19 @@ const Work = () => {
                 </div>
                 <div className="text-center text-xs pb-2">{project.tech}</div>
                 <div className="text-center text-s md:text-xs italic">{project.desc}</div>
-                <div className='pt-8 text-center'>
+
+                <div className='pt-8 text-center flex justify-center items-center'>
                   {project.demo && (
                     <a href={project.demo} target='_blank' rel='noopener noreferrer'>
-                      <button className='text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                      <button className='text-center rounded-xl px-3 py-2 m-2 bg-white text-gray-700 font-bold text-lg flex items-center hover:scale-95 duration-300'>
+                        <GrDeploy className='mr-2' />Demo
+                      </button>
                     </a>
                   )}
                   <a href={project.code} target='_blank' rel='noopener noreferrer'>
-                    <button className='text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                    <button className='text-center rounded-xl px-3 py-2 m-2 bg-white text-gray-700 font-bold text-lg flex items-center hover:scale-95 duration-300'>
+                      <FaGithub className='mr-2' />Code
+                    </button>
                   </a>
                 </div>
               </div>
