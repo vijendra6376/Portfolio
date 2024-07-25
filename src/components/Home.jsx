@@ -9,9 +9,9 @@ const Home = () => {
     words: [
       'a Full-Stack Web Developer',
       'a UI/UX Designer',
-      'an Artificial Intelligence Intern',
-      'a Cyber Security Geek',
-      'a Final-Year IT Undergraduate'
+      'an AI Intern @ IBM',
+      'a CyberSecurity Intern @ CFCS2R',
+      'a Final-Year IT Undergrad @ CUSAT'
     ],
     loop: true,
     typeSpeed: 40,

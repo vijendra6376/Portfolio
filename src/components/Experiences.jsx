@@ -23,10 +23,10 @@ function Experiences() {
                 data-aos="fade-right" data-aos-duration="800" data-aos-once="false">
                 <div className='font-bold text-lg'>Cyber Security Intern - CFCS2R</div>
                 <p className='max-sm:text-xs text-sm text-left'>
-                  <i>July 2024 - Present</i><br />
-                  • Familiarized with cyber space, focusing on configuring and monitoring security controls.<br />
-                  • Analyzed case studies examining tactics used by perpetrators and responses by cyber police stations.<br />
-                  • Implemented cyber security protocols to ensure data protection and compliance with industry standards.
+                  <strong>July 2024 - Present</strong><br />
+                  • Implemented security measures to protect Windows systems from vulnerabilities and threats.<br/>
+                  • Acquired understanding of networking principles to build secure communication channels.<br/>
+                  • Investigated digital evidence to combat cybercrimes and developed skills to manage them efficiently.
                 </p>
               </div>
             </div>
