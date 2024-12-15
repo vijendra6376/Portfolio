@@ -7,11 +7,9 @@ import { motion } from 'framer-motion'
 const Home = () => {
   const [text] = useTypewriter({
     words: [
-      'a Full-Stack Web Developer',
-      'a UI/UX Designer',
-      'an AI Intern @ IBM',
-      'a CyberSecurity Intern @ CFCS2R',
-      'a Final-Year IT Undergrad @ CUSAT'
+      'Full-Stack Web Developer',
+      'UI/UX Designer',
+      'Final-Year IT Undergrad @ CUSAT'
     ],
     loop: true,
     typeSpeed: 40,
@@ -44,7 +42,7 @@ const Home = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 1 }}
         >
-          I'm <span>{text}</span><Cursor />
+          I'm a <span>{text}</span><Cursor />
         </motion.h2>
         <motion.p
           className='py-4 max-w-[700px] text-[#8892b0]'
