@@ -44,7 +44,7 @@ import React from 'react'
 
 const About = () => {
   return (
-     <div name='about' className='relative w-full h-screen bg-gradient-to-r animate-move-gradient from-[#0F0C29] to-[#302B63] text-gray-300 md:px-10 max-sm:px-6 overflow-hidden'>
+     <div name='about' className='relative w-full min-h-screen bg-gradient-to-r animate-move-gradient from-[#0F0C29] to-[#302B63] text-gray-300 md:px-10 max-sm:px-6 overflow-hidden'>
 
       {/* Background Floating Blobs */}
       <div className="absolute top-[10%] left-[10%] w-[40vw] h-[40vw] bg-purple-700 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-float-slow z-0"></div>

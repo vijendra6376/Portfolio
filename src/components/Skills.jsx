@@ -14,7 +14,7 @@ import Python from '../assets/python.png'
 
 const Skills = () => {
   return (
-    <div name='skills' className='relative w-full h-screen bg-gradient-to-r animate-move-gradient from-[#0F0C29] to-[#302B63] text-gray-300 md:px-10 max-sm:px-6 overflow-hidden'>
+    <div name='skills' className='relative w-full min-h-screen bg-gradient-to-r animate-move-gradient from-[#0F0C29] to-[#302B63] text-gray-300 md:px-10 max-sm:px-6 overflow-hidden'>
 
     {/* Background Floating Blobs */}
     <div className="absolute top-[10%] left-[10%] w-[40vw] h-[40vw] bg-purple-700 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-float-slow"></div>
