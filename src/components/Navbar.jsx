@@ -4,7 +4,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
 import { motion } from 'framer-motion';
-import Logo from '../assets/h.png';
+import Logo from '../assets/h.png'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -15,7 +15,7 @@ const Navbar = () => {
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 0.9, y: 0 }}
       transition={{ duration: 1 }}
-      className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-r from-[#1C1B2E] to-[#1e1b41] text-gray-200 z-20'
+      className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-black text-gray-200 z-20'
     >
       {/* Logo */}
       <div>
@@ -47,7 +47,7 @@ const Navbar = () => {
       <ul
         className={`${
           !nav ? 'hidden' : 'absolute'
-        } top-0 right-0 w-[60%] h-screen opacity-90 bg-slate-900 rounded-l-xl text-gray-300 flex flex-col justify-center items-center z-10`}
+        } top-0 right-0 w-[60%] h-screen opacity-80 bg-black rounded-l-xl text-gray-300 flex flex-col justify-center items-center z-10`}
       >
         {['home', 'about', 'skills', 'work', 'experience', 'certificates', 'contact'].map(
           (section, index) => (
@@ -101,7 +101,7 @@ const Navbar = () => {
       {/* Social Links */}
       <div className='hidden md:flex lg:flex fixed flex-col top-[35%] left-0 z-10'>
         <ul>
-          <li className='w-[160px] h-[40px] rounded-lg flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+          <li className='w-[160px] h-[40px] rounded-lg flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-700'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='https://www.linkedin.com/in/hneelabh'
@@ -110,7 +110,7 @@ const Navbar = () => {
               LinkedIn <FaLinkedin size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[40px] rounded-lg flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+          <li className='w-[160px] h-[40px] rounded-lg flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-800'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='https://www.github.com/hneelabh'
@@ -119,7 +119,7 @@ const Navbar = () => {
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[40px] rounded-lg flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
+          <li className='w-[160px] h-[40px] rounded-lg flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-900'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='mailto:hneelabh13@gmail.com'
@@ -127,7 +127,7 @@ const Navbar = () => {
               E-mail <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[40px] rounded-lg flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
+          <li className='w-[160px] h-[40px] rounded-lg flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-950'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='https://drive.google.com/file/d/1v143hpz-kurIsSowBZammc6N4NEhKuSr/view'
