@@ -17,10 +17,9 @@ const Home = () => {
   })
 
   return (
-    <div name='home' className='relative w-full min-h-screen text-gray-300 '>
-
+    <div name='home' className='relative w-full min-h-screen text-gray-300 overflow-hidden'>
     <div className="relative h-screen w-full bg-black"><div class="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"></div><div class="absolute left-0 right-0 top-[-10%] h-[1000px] w-[1000px] rounded-full bg-[radial-gradient(circle_400px_at_50%_300px,#fbfbfb36,#000)]"></div>
-  
+ 
       {/* Background Floating Blobs
     <div className="absolute top-[10%] left-[10%] w-[40vw] h-[40vw] bg-purple-700 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-float-fast z-0"></div>
     <div className="absolute top-[10%] right-[10%] w-[35vw] h-[35vw] bg-violet-800 rounded-full mix-blend-multiply filter blur-3xl opacity-60 animate-float-fast z-0"></div>
