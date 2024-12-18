@@ -5,10 +5,16 @@ import SOFTAPPER from "../assets/Companies/softapper.png";
 
 function Experiences() {
   return (
-    <div name='experience' className='bg-gradient-to-r from-[#0F0C29] to-[#302B63] text-gray-300 w-full min-h-screen py-8 pt-20 md:px-10'>
+<div name='experience' className='relative w-full h-screen bg-gradient-to-r animate-move-gradient from-[#0F0C29] to-[#302B63] text-gray-300 md:px-10 max-sm:px-6 overflow-hidden'>
+    {/* Background Floating Blobs */}
+    <div className="absolute top-[10%] left-[10%] w-[40vw] h-[40vw] bg-purple-700 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-float-slow z-0"></div>
+    <div className="absolute top-[10%] right-[10%] w-[35vw] h-[35vw] bg-yellow-300 rounded-full mix-blend-multiply filter blur-3xl opacity-40 animate-float-fast z-0"></div>
+    <div className="absolute bottom-[10%] left-[5%] w-[30vw] h-[30vw] bg-pink-300 rounded-full mix-blend-multiply filter blur-3xl opacity-60 animate-float-slow z-0"></div>
+    <div className="absolute top-[20%] right-[15%] w-[25vw] h-[25vw] bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-60 animate-float-fast z-0"></div>
+    <div className="absolute bottom-[5%] left-[20%] w-[20vw] h-[20vw] bg-green-400 rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-float-slow z-0"></div>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-        <div className='pb-8 max-sm:px-6'>
-          <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600 '>
+        <div className='pb-8 max-sm:px-6 z-10'>
+          <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600 z-10'>
             Experience
           </p>
           <p className='pt-6'>Following are the places I've gained work experience:</p>
