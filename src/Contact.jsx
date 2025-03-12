@@ -2,9 +2,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div name='contact' className='relative w-full min-h-screen text-gray-300 overflow-hidden'>
-    <div className="relative min-h-screen w-full bg-black"><div class="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"></div><div class="absolute left-0 right-0 top-[-10%] h-[1000px] w-[1000px] rounded-full bg-[radial-gradient(circle_400px_at_50%_300px,#fbfbfb36,#000)]"></div>
-
+    <div name='contact' className='relative w-full h-screen text-gray-300 overflow-hidden bg-black bg-opacity-60 px-10'>
       {/* Background Floating Blobs
       <div className="absolute top-[10%] left-[10%] w-[40vw] h-[40vw] bg-purple-700 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-float-slow z-0"></div>
       <div className="absolute top-[10%] right-[10%] w-[35vw] h-[35vw] bg-yellow-300 rounded-full mix-blend-multiply filter blur-3xl opacity-40 animate-float-fast z-0"></div>
@@ -14,11 +12,11 @@ const Contact = () => {
  */}
       {/* Contact Form */}
       <div className='flex flex-col justify-center items-center w-full h-full z-10'>
-        <form
-          method='POST'
-          action="https://getform.io/f/YerJRLeO"
-          className='flex flex-col max-w-[600px] w-full z-10'
-        >
+      <form
+        method='POST'
+        action={import.meta.env.VITE_GETFORM_URL}
+        className='flex flex-col max-w-[600px] w-full z-10'
+      >
           <div className='pb-8'>
             <p className='text-4xl font-bold inline border-b-4 border-pink-600'>
               Contact
@@ -50,7 +48,6 @@ const Contact = () => {
           </button>
         </form>
       </div>
-    </div>
     </div>
   );
 };

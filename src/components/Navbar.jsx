@@ -11,6 +11,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
+    <>
     <motion.div
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 0.9, y: 0 }}
@@ -97,48 +98,54 @@ const Navbar = () => {
           </li>
         </div>
       </ul>
+      </motion.div>
 
-      {/* Social Links */}
-      <div className='hidden md:flex lg:flex fixed flex-col top-[35%] left-0 z-10'>
-        <ul>
-          <li className='w-[160px] h-[40px] rounded-lg flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-700'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='https://www.linkedin.com/in/hneelabh'
-              target='blank'
-            >
-              LinkedIn <FaLinkedin size={30} />
-            </a>
-          </li>
-          <li className='w-[160px] h-[40px] rounded-lg flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-800'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='https://www.github.com/hneelabh'
-              target='blank'
-            >
-              Github <FaGithub size={30} />
-            </a>
-          </li>
-          <li className='w-[160px] h-[40px] rounded-lg flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-900'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='mailto:hneelabh13@gmail.com'
-            >
-              E-mail <HiOutlineMail size={30} />
-            </a>
-          </li>
-          <li className='w-[160px] h-[40px] rounded-lg flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-950'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='https://drive.google.com/file/d/1v143hpz-kurIsSowBZammc6N4NEhKuSr/view'
-              target='blank'
-            >
-              Resume <BsFillPersonLinesFill size={30} />
-            </a>
-          </li>
-        </ul>
-      </div>
+    {/* Social Links */}
+    <motion.div
+      initial={{ x: -200 }}
+      animate={{ x: 0 }}
+      transition={{ duration: 1, type: 'spring', bounce: 0.3 }}
+      className='hidden md:flex lg:flex fixed flex-col top-[35%] left-0 z-10'
+    >
+      <ul>
+        <li className='w-[160px] h-[40px] rounded-lg flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-700'>
+          <a
+            className='flex justify-between items-center w-full text-gray-300'
+            href='https://www.linkedin.com/in/hneelabh'
+            target='blank'
+          >
+            LinkedIn <FaLinkedin size={30} />
+          </a>
+        </li>
+        <li className='w-[160px] h-[40px] rounded-lg flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-800'>
+          <a
+            className='flex justify-between items-center w-full text-gray-300'
+            href='https://www.github.com/hneelabh'
+            target='blank'
+          >
+            Github <FaGithub size={30} />
+          </a>
+        </li>
+        <li className='w-[160px] h-[40px] rounded-lg flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-900'>
+          <a
+            className='flex justify-between items-center w-full text-gray-300'
+            href='mailto:hneelabh13@gmail.com'
+          >
+            E-mail <HiOutlineMail size={30} />
+          </a>
+        </li>
+        <li className='w-[160px] h-[40px] rounded-lg flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-950'>
+          <a
+            className='flex justify-between items-center w-full text-gray-300'
+            href='https://drive.google.com/file/d/1lVzzezvrdqEct0fEl-ukFxP2CoZPunx_/view?usp=sharing'
+            target='blank'
+          >
+            Resume <BsFillPersonLinesFill size={30} />
+          </a>
+        </li>
+      </ul>
     </motion.div>
+    </>
   );
 };
 

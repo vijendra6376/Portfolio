@@ -7,9 +7,11 @@ import { motion } from 'framer-motion'
 const Home = () => {
   const [text] = useTypewriter({
     words: [
+      'SWE Intern @Visteon',
+      'Final-Year IT Undergrad @ CUSAT',
       'Full-Stack Web Developer',
-      'UI/UX Designer',
-      'Final-Year IT Undergrad @ CUSAT'
+      'UI/UX Designer'
+
     ],
     loop: true,
     typeSpeed: 40,
@@ -17,64 +19,66 @@ const Home = () => {
   })
 
   return (
-    <div name='home' className='relative w-full min-h-screen text-gray-300 overflow-hidden'>
-    <div className="relative h-screen w-full bg-black"><div class="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"></div><div class="absolute left-0 right-0 top-[-10%] h-[1000px] w-[1000px] rounded-full bg-[radial-gradient(circle_400px_at_50%_300px,#fbfbfb36,#000)]"></div>
- 
-      {/* Background Floating Blobs
-    <div className="absolute top-[10%] left-[10%] w-[40vw] h-[40vw] bg-purple-700 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-float-fast z-0"></div>
-    <div className="absolute top-[10%] right-[10%] w-[35vw] h-[35vw] bg-violet-800 rounded-full mix-blend-multiply filter blur-3xl opacity-60 animate-float-fast z-0"></div>
-    <div className="absolute bottom-[10%] left-[5%] w-[30vw] h-[30vw] bg-pink-300 rounded-full mix-blend-multiply filter blur-3xl opacity-60 animate-float-fast z-0"></div>
-    <div className="absolute top-[20%] right-[15%] w-[25vw] h-[25vw] bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-60 animate-float-fast z-0"></div>
-    <div className="absolute bottom-[5%] left-[20%] w-[20vw] h-[20vw] bg-green-400 rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-float-fast z-0"></div> */}
-    {/* Content Container */}
-    <div className='max-w-[1000px] md:mx-10 lg:mx-auto px-8 flex flex-col justify-center h-full relative z-10'>
-    <motion.p
-      className='text-pink-600'
-      initial={{ opacity: 0, y: -50 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 1 }}
+    <div
+      name='home'
+      className='relative w-full min-h-screen text-gray-300 flex items-center justify-center'
     >
-      Hi, my name is
-    </motion.p>
-    <motion.h1
-      className='text-4xl sm:text-5xl lg:text-7xl font-bold text-[#ccd6f6]'
-      initial={{ opacity: 0, x: -50 }}
-      animate={{ opacity: 1, x: 0 }}
-      transition={{ duration: 1, delay: 0.5 }}
-    >
-      Harsh Neelabh
-    </motion.h1>
-    <motion.h2
-      className='text-2xl sm:text-3xl lg:text-5xl font-semibold text-[#8892b0]'
-      initial={{ opacity: 0, x: 50 }}
-      animate={{ opacity: 1, x: 0 }}
-      transition={{ duration: 1, delay: 1 }}
-    >
-      I'm a <span>{text}</span><Cursor />
-    </motion.h2>
-    <motion.p
-      className='py-4 max-w-[700px] text-[#8892b0]'
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 1, delay: 1.5 }}
-    >
-      I specialize in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on creating responsive full-stack web applications.
-    </motion.p>
-    <motion.div
-      initial={{ opacity: 0, scale: 0.8 }}
-      animate={{ opacity: 1, scale: 1 }}
-      transition={{ duration: 0.5, delay: 2 }}
-    >
-      <Link to="work" smooth={true} duration={500}>
-        <button className='text-white group border-y-2 px-3 py-2 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 hover:scale-95 duration-500 rounded-xl'>
-          View Work
-          <span className='group-hover:rotate-90 duration-300'>
-            <HiArrowNarrowRight className='ml-3' />
-          </span>
-        </button>
-      </Link>
-    </motion.div>
-      </div>
+      {/* Overlay for better readability */}
+      <div className="absolute inset-0 bg-black bg-opacity-60 z-0"></div>
+
+      {/* Content Container */}
+      <div className='relative z-10 max-w-[1000px] mx-auto px-8 flex flex-col justify-center items-start h-full text-left'>
+        <motion.p
+          className='text-pink-600 text-lg'
+          initial={{ opacity: 0, y: -50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+        >
+          Hi, my name is
+        </motion.p>
+
+        <motion.h1
+          className='text-4xl sm:text-5xl lg:text-7xl font-bold text-white'
+          initial={{ opacity: 0, x: -50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1, delay: 0.5 }}
+        >
+          Harsh Neelabh
+        </motion.h1>
+
+        <motion.h2
+          className='text-2xl sm:text-3xl lg:text-5xl font-semibold text-gray-300 mt-2'
+          initial={{ opacity: 0, x: 50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1, delay: 1 }}
+        >
+          I'm a <span>{text}</span>
+          <Cursor />
+        </motion.h2>
+
+        <motion.p
+          className='py-4 max-w-[700px] text-gray-400 text-base sm:text-lg'
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 1.5 }}
+        >
+          I specialize in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on creating responsive full-stack web applications.
+        </motion.p>
+
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5, delay: 2 }}
+        >
+          <Link to="work" smooth={true} duration={500}>
+            <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 duration-300 rounded-xl'>
+              View Work
+              <span className='group-hover:rotate-90 duration-300'>
+                <HiArrowNarrowRight className='ml-3' />
+              </span>
+            </button>
+          </Link>
+        </motion.div>
       </div>
     </div>
   )
