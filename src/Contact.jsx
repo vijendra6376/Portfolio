@@ -30,18 +30,21 @@ const Contact = () => {
             type="text"
             placeholder='Name'
             name='name'
+            required
           />
           <input
             className='bg-[#ccd6f6] text-gray-700 my-4 p-2 rounded-lg'
             type="email"
             placeholder='Email'
             name='email'
+            required
           />
           <textarea
             className='bg-[#ccd6f6] text-gray-700 p-2 rounded-lg'
             name='message'
             rows="10"
             placeholder='Message'
+            required
           ></textarea>
           <button className='border-y-2 hover:bg-pink-600 hover:border-pink-600 hover:opacity-85 hover:scale-95 duration-300 px-3 py-2 my-8 mx-auto items-center rounded-xl'>
             Let's Connect!
