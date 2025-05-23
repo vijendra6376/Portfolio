@@ -7,10 +7,10 @@ import { motion } from 'framer-motion'
 const Home = () => {
   const [text] = useTypewriter({
     words: [
-      'SWE Intern @Visteon',
-      'Final-Year IT Undergrad @ CUSAT',
-      'Full-Stack Web Developer',
-      'UI/UX Designer'
+      
+      'Pre-Final-Year B.Tech Student',
+      ' Java-Full-Stack Web Developer',
+      
 
     ],
     loop: true,
@@ -43,7 +43,7 @@ const Home = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
         >
-          Harsh Neelabh
+        Vijendra Kumar Patidar
         </motion.h1>
 
         <motion.h2
@@ -56,14 +56,7 @@ const Home = () => {
           <Cursor />
         </motion.h2>
 
-        <motion.p
-          className='py-4 max-w-[700px] text-gray-400 text-base sm:text-lg'
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 1.5 }}
-        >
-          I specialize in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on creating responsive full-stack web applications.
-        </motion.p>
+       
 
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}

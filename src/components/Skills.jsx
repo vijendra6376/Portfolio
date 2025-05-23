@@ -2,16 +2,15 @@ import React from 'react';
 import HTML from '../assets/html.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
-import FireBase from '../assets/firebase.png';
+
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
-import Mongo from '../assets/mongo.png';
-import Node from '../assets/node.png';
-import Express from '../assets/express.png';
-import Unix from '../assets/unix.png';
-import CPP from '../assets/c++.png';
-import Python from '../assets/python.png'
-
+import css from '../assets/css.png';
+import java from '../assets/java.png';
+import dsa from '../assets/dsa.png';
+import springboot from '../assets/download.png';
+import mysql from '../assets/mysql.png';
+import oops from '../assets/oops.jpeg';
 const Skills = () => {
   return (
     <div name='skills' className='pt-24 relative w-full min-h-screen text-gray-300 bg-black bg-opacity-60 overflow-hidden'>
@@ -35,49 +34,49 @@ const Skills = () => {
           <img className='w-10 mx-auto' src={HTML} alt="HTML icon" />
           <p className='my-4'>HTML</p>
         </div>
+         <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-black bg-opacity-50 pt-4'>
+          <img className='w-10 mx-auto' src={css} alt="GitHub icon" />
+          <p className='my-4'>CSS</p>
+        </div>
         <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-black bg-opacity-50 pt-4'>
           <img className='w-10 mx-auto' src={JavaScript} alt="JavaScript icon" />
           <p className='my-4'>JAVASCRIPT</p>
         </div>
-        <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-black bg-opacity-50 pt-4'>
-          <img className='w-10 mx-auto' src={CPP} alt="CPP icon" />
-          <p className='my-4'>C++</p>
-        </div>
-        <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-black bg-opacity-50 pt-4'>
-          <img className='w-10 mx-auto' src={Python} alt="CSS icon" />
-          <p className='my-4'>Python</p>
-        </div>
+     
         <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-black bg-opacity-50 pt-4'>
           <img className='w-10 mx-auto' src={ReactImg} alt="React icon" />
           <p className='my-4'>REACT JS</p>
         </div>
-        <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-black bg-opacity-50 pt-4'>
-          <img className='w-10 mx-auto' src={Node} alt="Node icon" />
-          <p className='my-4'>NODE JS</p>
+           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-black bg-opacity-50 pt-4'>
+          <img className='w-10 mx-auto' src={java} alt="CPP icon" />
+          <p className='my-4'>JAVA</p>
         </div>
         <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-black bg-opacity-50 pt-4'>
-          <img className='w-10 mx-auto' src={Mongo} alt="MongoDB icon" />
-          <p className='my-4'>MONGO DB</p>
+          <img className='w-20 mx-auto' src={dsa} alt="CSS icon" />
+          <p className='my-4'>DSA</p>
         </div>
         <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-black bg-opacity-50 pt-4'>
-          <img className='w-10 mx-auto' src={Express} alt="Express icon" />
-          <p className='my-4'>EXPRESS JS</p>
+          <img className='w-20 mx-auto' src={springboot} alt="Node icon" />
+          <p className='my-4'>SPRING-BOOT</p>
         </div>
+       
+      
         <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-black bg-opacity-50 pt-4'>
           <img className='w-10 mx-auto' src={Tailwind} alt="Tailwind icon" />
           <p className='my-4'>TAILWIND</p>
         </div>
-        <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-black bg-opacity-50 pt-4'>
-          <img className='w-10 mx-auto' src={FireBase} alt="FireBase icon" />
-          <p className='my-4'>FIREBASE</p>
-        </div>
+      
         <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-black bg-opacity-50 pt-4'>
           <img className='w-10 mx-auto' src={GitHub} alt="GitHub icon" />
           <p className='my-4'>GITHUB</p>
         </div>
         <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-black bg-opacity-50 pt-4'>
-          <img className='w-10 mx-auto' src={Unix} alt="Unix icon" />
-          <p className='my-4'>UNIX</p>
+          <img className='w-20 mx-auto' src={mysql} alt="GitHub icon" />
+          <p className='my-4'>DATABASE</p>
+        </div>
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-black bg-opacity-50 pt-4'>
+          <img className='w-20 mx-auto' src={oops} alt="GitHub icon" />
+          <p className='my-4'>OOPs</p>
         </div>
       </div>
     </div>

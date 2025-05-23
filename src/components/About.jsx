@@ -23,12 +23,12 @@ const About = () => {
         <div className='max-w-[1000px] w-full px-4 grid sm:grid-cols-2 gap-8 z-10'>
           <div className='sm:text-right text-3xl font-bold'>
             <p>
-              Hi. I'm Harsh, nice to meet you. Please take a look around.
+              Hi. I'm Vijendra, nice to meet you. Please take a look around.
             </p>
           </div>
           <div>
             <p>
-              As a passionate full-stack web developer specializing in MERN, I bring creativity and precision to every project. With a keen eye for design and a knack for clean code, I craft engaging web experiences that captivate users. Let's collaborate to bring your vision to life with cutting-edge technology and intuitive design.
+              As a passionate Java full-stack web developer specializing in Java, I bring creativity and precision to every project. With a keen eye for design and a knack for clean code, I craft engaging web experiences that captivate users. Let's collaborate to bring your vision to life with cutting-edge technology and intuitive design.
             </p>
           </div>
         </div>

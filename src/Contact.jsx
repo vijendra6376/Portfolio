@@ -13,8 +13,7 @@ const Contact = () => {
       {/* Contact Form */}
       <div className='flex flex-col justify-center items-center w-full h-full z-10'>
       <form
-        method='POST'
-        action={import.meta.env.VITE_GETFORM_URL}
+       
         className='flex flex-col max-w-[600px] w-full z-10'
       >
           <div className='pb-8'>
@@ -22,7 +21,7 @@ const Contact = () => {
               Contact
             </p>
             <p className='py-4'>
-              Submit the form below or shoot me an email - hneelabh13@gmail.com
+              Submit the form below or shoot me an email - vijendrapatidar01@gmail.com
             </p>
           </div>
           <input

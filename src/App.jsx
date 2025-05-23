@@ -2,16 +2,15 @@ import Navbar from "./components/Navbar"
 import Home from "./components/Home"
 import About from "./components/About"
 import Skills from "./components/Skills"
-import Work from "./components/Work"
+
 import Certificates from "./components/Certificates"
 import Contact from "./Contact"
 
-import bgWood from './assets/bg-wood.jpg' 
+import background from './assets/background.png' 
 
 import AOS from "aos";
 import 'aos/dist/aos.css';
 import { useEffect } from "react"
-import Experiences from "./components/Experiences"
 
 export default function App() {
 
@@ -28,7 +27,7 @@ export default function App() {
   return (
     <div
     style={{
-      backgroundImage: `url(${bgWood})`,
+      backgroundImage: `url(${background})`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',
@@ -41,8 +40,7 @@ export default function App() {
       <Home />
       <About />
       <Skills />
-      <Work />
-      <Experiences />
+    
       <Certificates />
       <Contact />
     </div>
